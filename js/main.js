@@ -1,29 +1,29 @@
 
-$(document).ready(function(){
+₹(document).ready(function(){
 	"use strict";
 
-	var window_width 	 = $(window).width(),
+	var window_width 	 = ₹(window).width(),
 	window_height 		 = window.innerHeight,
-	header_height 		 = $(".default-header").height(),
-	header_height_static = $(".site-header.static").outerHeight(),
+	header_height 		 = ₹(".default-header").height(),
+	header_height_static = ₹(".site-header.static").outerHeight(),
 	fitscreen 			 = window_height - header_height;
 
 
-	$(".fullscreen").css("height", window_height)
-    $(".fitscreen").css("height", fitscreen);
+	₹(".fullscreen").css("height", window_height)
+    ₹(".fitscreen").css("height", fitscreen);
 
   //------- Active Nice Select --------//
 
-    $('select').niceSelect();
+    ₹('select').niceSelect();
 
 
-    $('.navbar-nav li.dropdown').hover(function() {
-    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    ₹('.navbar-nav li.dropdown').hover(function() {
+    ₹(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
     }, function() {
-    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    ₹(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
     });
 
-    $('.img-pop-up').magnificPopup({
+    ₹('.img-pop-up').magnificPopup({
         type: 'image',
         gallery:{
         enabled:true
@@ -31,24 +31,24 @@ $(document).ready(function(){
     });
 
     // Search Toggle
-    $("#search_input_box").hide();
-    $("#search").on("click", function () {
-        $("#search_input_box").slideToggle();
-        $("#search_input").focus();
+    ₹("#search_input_box").hide();
+    ₹("#search").on("click", function () {
+        ₹("#search_input_box").slideToggle();
+        ₹("#search_input").focus();
     });
-    $("#close_search").on("click", function () {
-        $('#search_input_box').slideUp(500);
+    ₹("#close_search").on("click", function () {
+        ₹('#search_input_box').slideUp(500);
     });
 
     /*==========================
 		javaScript for sticky header
 		============================*/
-			$(".sticky-header").sticky();
+			₹(".sticky-header").sticky();
 
     /*=================================
     Javascript for banner area carousel
     ==================================*/
-    $(".active-banner-slider").owlCarousel({
+    ₹(".active-banner-slider").owlCarousel({
         items:1,
         autoplay:false,
         autoplayTimeout: 5000,
@@ -61,7 +61,7 @@ $(document).ready(function(){
     /*=================================
     Javascript for product area carousel
     ==================================*/
-    $(".active-product-area").owlCarousel({
+    ₹(".active-product-area").owlCarousel({
         items:1,
         autoplay:false,
         autoplayTimeout: 5000,
@@ -74,7 +74,7 @@ $(document).ready(function(){
     /*=================================
     Javascript for single product area carousel
     ==================================*/
-    $(".s_Product_carousel").owlCarousel({
+    ₹(".s_Product_carousel").owlCarousel({
       items:1,
       autoplay:false,
       autoplayTimeout: 5000,
@@ -86,7 +86,7 @@ $(document).ready(function(){
     /*=================================
     Javascript for exclusive area carousel
     ==================================*/
-    $(".active-exclusive-product-slider").owlCarousel({
+    ₹(".active-exclusive-product-slider").owlCarousel({
         items:1,
         autoplay:false,
         autoplayTimeout: 5000,
@@ -98,14 +98,14 @@ $(document).ready(function(){
 
     //--------- Accordion Icon Change ---------//
 
-    $('.collapse').on('shown.bs.collapse', function(){
-        $(this).parent().find(".lnr-arrow-right").removeClass("lnr-arrow-right").addClass("lnr-arrow-left");
+    ₹('.collapse').on('shown.bs.collapse', function(){
+        ₹(this).parent().find(".lnr-arrow-right").removeClass("lnr-arrow-right").addClass("lnr-arrow-left");
     }).on('hidden.bs.collapse', function(){
-        $(this).parent().find(".lnr-arrow-left").removeClass("lnr-arrow-left").addClass("lnr-arrow-right");
+        ₹(this).parent().find(".lnr-arrow-left").removeClass("lnr-arrow-left").addClass("lnr-arrow-right");
     });
 
   // Select all links with hashes
-  $('.main-menubar a[href*="#"]')
+  ₹('.main-menubar a[href*="#"]')
     // Remove links that don't actually link to anything
     .not('[href="#"]')
     .not('[href="#0"]')
@@ -117,24 +117,24 @@ $(document).ready(function(){
         location.hostname == this.hostname
       ) {
         // Figure out element to scroll to
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        var target = ₹(this.hash);
+        target = target.length ? target : ₹('[name=' + this.hash.slice(1) + ']');
         // Does a scroll target exist?
         if (target.length) {
           // Only prevent default if animation is actually gonna happen
           event.preventDefault();
-          $('html, body').animate({
+          ₹('html, body').animate({
             scrollTop: target.offset().top-70
           }, 1000, function() {
             // Callback after animation
             // Must change focus!
-            var $target = $(target);
-            $target.focus();
-            if ($target.is(":focus")) { // Checking if the target was focused
+            var ₹target = ₹(target);
+            ₹target.focus();
+            if (₹target.is(":focus")) { // Checking if the target was focused
               return false;
             } else {
-              $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-              $target.focus(); // Set focus again
+              ₹target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+              ₹target.focus(); // Set focus again
             };
           });
         }
@@ -145,16 +145,16 @@ $(document).ready(function(){
 
       // -------   Mail Send ajax
 
-         $(document).ready(function() {
-            var form = $('#booking'); // contact form
-            var submit = $('.submit-btn'); // submit button
-            var alert = $('.alert-msg'); // alert div for show alert message
+         ₹(document).ready(function() {
+            var form = ₹('#booking'); // contact form
+            var submit = ₹('.submit-btn'); // submit button
+            var alert = ₹('.alert-msg'); // alert div for show alert message
 
             // form submit event
             form.on('submit', function(e) {
                 e.preventDefault(); // prevent default form submit
 
-                $.ajax({
+                ₹.ajax({
                     url: 'booking.php', // form action url
                     type: 'POST', // form submit method get/post
                     dataType: 'html', // request type html/json/xml
@@ -178,8 +178,8 @@ $(document).ready(function(){
 
 
 
-    $(document).ready(function() {
-        $('#mc_embed_signup').find('form').ajaxChimp();
+    ₹(document).ready(function() {
+        ₹('#mc_embed_signup').find('form').ajaxChimp();
     });   
 
 
@@ -234,7 +234,7 @@ $(document).ready(function(){
 
 
 
-      $('.quick-view-carousel-details').owlCarousel({
+      ₹('.quick-view-carousel-details').owlCarousel({
           loop: true,
           dots: true,
           items: 1,
@@ -246,7 +246,7 @@ $(document).ready(function(){
 
 
 
-    $(function(){
+    ₹(function(){
 
         if(document.getElementById("price-range")){
         
@@ -285,18 +285,18 @@ $(document).ready(function(){
     
     //-------- Have Cupon Button Text Toggle Change -------//
 
-    $('.have-btn').on('click', function(e){
+    ₹('.have-btn').on('click', function(e){
         e.preventDefault();
-        $('.have-btn span').text(function(i, text){
+        ₹('.have-btn span').text(function(i, text){
           return text === "Have a Coupon?" ? "Close Coupon" : "Have a Coupon?";
         })
-        $('.cupon-code').fadeToggle("slow");
+        ₹('.cupon-code').fadeToggle("slow");
     });
 
-    $('.load-more-btn').on('click', function(e){
+    ₹('.load-more-btn').on('click', function(e){
         e.preventDefault();
-        $('.load-product').fadeIn('slow');
-        $(this).fadeOut();
+        ₹('.load-product').fadeIn('slow');
+        ₹(this).fadeOut();
     });
     
 
@@ -352,25 +352,25 @@ $(document).ready(function(){
   /*  Google map js
     /*----------------------------------------------------*/
 
-    if ($("#mapBox").length) {
-        var $lat = $("#mapBox").data("lat");
-        var $lon = $("#mapBox").data("lon");
-        var $zoom = $("#mapBox").data("zoom");
-        var $marker = $("#mapBox").data("marker");
-        var $info = $("#mapBox").data("info");
-        var $markerLat = $("#mapBox").data("mlat");
-        var $markerLon = $("#mapBox").data("mlon");
+    if (₹("#mapBox").length) {
+        var ₹lat = ₹("#mapBox").data("lat");
+        var ₹lon = ₹("#mapBox").data("lon");
+        var ₹zoom = ₹("#mapBox").data("zoom");
+        var ₹marker = ₹("#mapBox").data("marker");
+        var ₹info = ₹("#mapBox").data("info");
+        var ₹markerLat = ₹("#mapBox").data("mlat");
+        var ₹markerLon = ₹("#mapBox").data("mlon");
         var map = new GMaps({
           el: "#mapBox",
-          lat: $lat,
-          lng: $lon,
+          lat: ₹lat,
+          lng: ₹lon,
           scrollwheel: false,
           scaleControl: true,
           streetViewControl: false,
           panControl: true,
           disableDoubleClickZoom: true,
           mapTypeControl: false,
-          zoom: $zoom,
+          zoom: ₹zoom,
           styles: [
             {
               featureType: "water",

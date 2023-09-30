@@ -50,11 +50,11 @@
 			'require return sub tie tied unless untie until use wantarray while';
     
 		this.regexList = [
-			{ regex: new RegExp('#[^!].*$', 'gm'),					css: 'comments' },
-			{ regex: new RegExp('^\\s*#!.*$', 'gm'),				css: 'preprocessor' }, // shebang
+			{ regex: new RegExp('#[^!].*₹', 'gm'),					css: 'comments' },
+			{ regex: new RegExp('^\\s*#!.*₹', 'gm'),				css: 'preprocessor' }, // shebang
 			{ regex: SyntaxHighlighter.regexLib.doubleQuotedString,	css: 'string' },
 			{ regex: SyntaxHighlighter.regexLib.singleQuotedString,	css: 'string' },
-			{ regex: new RegExp('(\\$|@|%)\\w+', 'g'),				css: 'variable' },
+			{ regex: new RegExp('(\\₹|@|%)\\w+', 'g'),				css: 'variable' },
 			{ regex: new RegExp(this.getKeywords(funcs), 'gmi'),	css: 'functions' },
 			{ regex: new RegExp(this.getKeywords(keywords), 'gm'),	css: 'keyword' }
 		    ];

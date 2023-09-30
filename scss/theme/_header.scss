@@ -71,7 +71,7 @@
 					display: inline-block;
 					font-size: 12px;
 					font-weight: 500;
-					color: $title-color;
+					color: ₹title-color;
 					@media (min-width: 991px) {
 						padding: 10px 0;
 					}
@@ -82,7 +82,7 @@
 				&:hover,
 				&.active {
 					.nav-link {
-						color: $primary-color;
+						color: ₹primary-color;
 					}
 				}
 				&.submenu {
@@ -127,7 +127,7 @@
 							margin-left: 0px;
 							@include transition();
 							&.active {
-								background: $primary-color;
+								background: ₹primary-color;
 								.nav-link {
 									color: #fff;
 								}
@@ -144,7 +144,7 @@
 							}
 							&:hover {
 								.nav-link {
-									background: $primary-color;
+									background: ₹primary-color;
 									color: #fff;
 								}
 							}
@@ -184,7 +184,7 @@
 					}
 				}
 				span {
-					color: $title-color;
+					color: ₹title-color;
 					line-height: 80px;
 					font-weight: 500;
 				}

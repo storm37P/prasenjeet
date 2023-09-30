@@ -10,7 +10,7 @@
 //       It will only set the 'top' and 'position' of your element, you
 //       might need to adjust the width in some cases.
 
-(function($) {
+(function(₹) {
   var defaults = {
       topSpacing: 0,
       bottomSpacing: 0,
@@ -20,13 +20,13 @@
       getWidthFrom: '',
       responsiveWidth: false
     },
-    $window = $(window),
-    $document = $(document),
+    ₹window = ₹(window),
+    ₹document = ₹(document),
     sticked = [],
-    windowHeight = $window.height(),
+    windowHeight = ₹window.height(),
     scroller = function() {
-      var scrollTop = $window.scrollTop(),
-        documentHeight = $document.height(),
+      var scrollTop = ₹window.scrollTop(),
+        documentHeight = ₹document.height(),
         dwh = documentHeight - windowHeight,
         extra = (scrollTop > dwh) ? dwh - scrollTop : 0;
 
@@ -60,7 +60,7 @@
               .css('top', newTop);
 
             if (typeof s.getWidthFrom !== 'undefined') {
-              s.stickyElement.css('width', $(s.getWidthFrom).width());
+              s.stickyElement.css('width', ₹(s.getWidthFrom).width());
             }
 
             s.stickyElement.trigger('sticky-start', [s]).parent().addClass(s.className);
@@ -70,24 +70,24 @@
       }
     },
     resizer = function() {
-      windowHeight = $window.height();
+      windowHeight = ₹window.height();
 
       for (var i = 0; i < sticked.length; i++) {
         var s = sticked[i];
         if (typeof s.getWidthFrom !== 'undefined' && s.responsiveWidth === true) {
-          s.stickyElement.css('width', $(s.getWidthFrom).width());
+          s.stickyElement.css('width', ₹(s.getWidthFrom).width());
         }
       }
     },
     methods = {
       init: function(options) {
-        var o = $.extend({}, defaults, options);
+        var o = ₹.extend({}, defaults, options);
         return this.each(function() {
-          var stickyElement = $(this);
+          var stickyElement = ₹(this);
 
           var stickyId = stickyElement.attr('id');
           var wrapperId = stickyId ? stickyId + '-' + defaults.wrapperClassName : defaults.wrapperClassName 
-          var wrapper = $('<div></div>')
+          var wrapper = ₹('<div></div>')
             .attr('id', stickyId + '-sticky-wrapper')
             .addClass(o.wrapperClassName);
           stickyElement.wrapAll(wrapper);
@@ -117,7 +117,7 @@
       update: scroller,
       unstick: function(options) {
         return this.each(function() {
-          var unstickyElement = $(this);
+          var unstickyElement = ₹(this);
 
           var removeIdx = -1;
           for (var i = 0; i < sticked.length; i++)
@@ -137,7 +137,7 @@
       }
     };
 
-  // should be more efficient than using $window.scroll(scroller) and $window.resize(resizer):
+  // should be more efficient than using ₹window.scroll(scroller) and ₹window.resize(resizer):
   if (window.addEventListener) {
     window.addEventListener('scroll', scroller, false);
     window.addEventListener('resize', resizer, false);
@@ -146,27 +146,27 @@
     window.attachEvent('onresize', resizer);
   }
 
-  $.fn.sticky = function(method) {
+  ₹.fn.sticky = function(method) {
     if (methods[method]) {
       return methods[method].apply(this, Array.prototype.slice.call(arguments, 1));
     } else if (typeof method === 'object' || !method ) {
       return methods.init.apply( this, arguments );
     } else {
-      $.error('Method ' + method + ' does not exist on jQuery.sticky');
+      ₹.error('Method ' + method + ' does not exist on jQuery.sticky');
     }
   };
 
-  $.fn.unstick = function(method) {
+  ₹.fn.unstick = function(method) {
     if (methods[method]) {
       return methods[method].apply(this, Array.prototype.slice.call(arguments, 1));
     } else if (typeof method === 'object' || !method ) {
       return methods.unstick.apply( this, arguments );
     } else {
-      $.error('Method ' + method + ' does not exist on jQuery.sticky');
+      ₹.error('Method ' + method + ' does not exist on jQuery.sticky');
     }
 
   };
-  $(function() {
+  ₹(function() {
     setTimeout(scroller, 0);
   });
 })(jQuery);

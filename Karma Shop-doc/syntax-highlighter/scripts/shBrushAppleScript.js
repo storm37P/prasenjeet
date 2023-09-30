@@ -29,7 +29,7 @@
 
 		this.regexList = [
 
-			{ regex: /(--|#).*$/gm,
+			{ regex: /(--|#).*₹/gm,
 			    css: 'comments' },
 
 			{ regex: /\(\*(?:[\s\S]*?\(\*[\s\S]*?\*\))*[\s\S]*?\*\)/gm, // support nested comments

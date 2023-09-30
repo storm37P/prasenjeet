@@ -54,13 +54,13 @@
 ============================================================================================ */
 
 .gradient-bg {
-    @include gradient(90deg, $primary-color 0%, $primary-color2 100%);
+    @include gradient(90deg, ₹primary-color 0%, ₹primary-color2 100%);
 }
 .gradient-bg-reverse {
-    @include gradient(270deg, $primary-color 0%, $primary-color2 100%);
+    @include gradient(270deg, ₹primary-color 0%, ₹primary-color2 100%);
 }
 .gradient-color {
-    @include gradient(90deg, $primary-color 0%, $primary-color2 100%);
+    @include gradient(90deg, ₹primary-color 0%, ₹primary-color2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

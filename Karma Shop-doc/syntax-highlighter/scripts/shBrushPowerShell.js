@@ -54,8 +54,8 @@
 					'erase rd ren type % \\?';
 
 		this.regexList = [
-			{ regex: /#.*$/gm,										css: 'comments' },  // one line comments
-			{ regex: /\$[a-zA-Z0-9]+\b/g,							css: 'value'   },   // variables $Computer1
+			{ regex: /#.*₹/gm,										css: 'comments' },  // one line comments
+			{ regex: /\₹[a-zA-Z0-9]+\b/g,							css: 'value'   },   // variables ₹Computer1
 			{ regex: /\-[a-zA-Z]+\b/g,								css: 'keyword' },   // Operators    -not  -and  -eq
 			{ regex: SyntaxHighlighter.regexLib.doubleQuotedString,	css: 'string' },    // strings
 			{ regex: SyntaxHighlighter.regexLib.singleQuotedString,	css: 'string' },    // strings

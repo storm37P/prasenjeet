@@ -15,19 +15,19 @@
 			margin-top: 24px;
 			margin-bottom: 15px;
 			a{
-				color: $pfont;
+				color: ₹pfont;
 				font-size: 12px;
 			}
 		}
 		h4{
 			font-size: 18px;
-			color: $dip;
+			color: ₹dip;
 			border-bottom: 1px solid #eeeeee;
 			margin-bottom: 0px;
 			padding-bottom: 20px;
 			@include transition;
 			&:hover{
-				color: $baseColor;
+				color: ₹baseColor;
 			}
 		}
 		p{
@@ -58,7 +58,7 @@
 				margin-right: 0px;
 			}
 			&.active{
-				background: $baseColor;
+				background: ₹baseColor;
 			}
 		}
 	}
@@ -77,7 +77,7 @@
 			span{
 				width: 70%;
 				height: 3px;
-				background: $baseColor;
+				background: ₹baseColor;
 				position: absolute;
 				left: 0px;
 				bottom: 0px;
@@ -86,7 +86,7 @@
 					position: absolute;
 					right: -10px;
 					bottom: 0px;
-					background: $baseColor; 
+					background: ₹baseColor; 
 					color: #fff;
 					padding: 0px 5px;
 				}
@@ -96,20 +96,20 @@
 	.causes_text{
 		padding: 30px 35px 40px 30px;
 		h4{
-			color: $dip;
-			font-family: $primary-font;
+			color: ₹dip;
+			font-family: ₹primary-font;
 			font-size: 18px;
 			font-weight: 600;
 			margin-bottom: 15px;
 			cursor: pointer;
 			&:hover{
-				color: $baseColor;
+				color: ₹baseColor;
 			}
 		}
 		p{
 			font-size: 14px;
 			line-height: 24px;
-			color: $pfont;
+			color: ₹pfont;
 			font-weight: 300;
 			margin-bottom: 0px;
 		}
@@ -117,20 +117,20 @@
 	.causes_bottom{
 		a{
 			width: 50%;
-			border: 1px solid $baseColor;
+			border: 1px solid ₹baseColor;
 			text-align: center;
 			float: left;
 			line-height: 50px;
-			background: $baseColor;
+			background: ₹baseColor;
 			color: #fff;
-			font-family: $primary-font;
+			font-family: ₹primary-font;
 			font-size: 14px;
 			font-weight: 500;
 			& + a{
 				border-color: #eeeeee;
 				background: #fff;
 				font-size: 14px;
-				color: $dip;
+				color: ₹dip;
 			}
 		}
 	}
@@ -159,7 +159,7 @@
             padding: 10px 0px 13px;
             transition: all 0.3s linear;
             &:hover{
-                color: $pfont;
+                color: ₹pfont;
             }
         }
     }
@@ -183,9 +183,9 @@
         display: inline-block;
         padding: 1px 18px;
         text-align: center;
-        color: $dip;
+        color: ₹dip;
         &:before{
-            background: $baseColor;
+            background: ₹baseColor;
         }
         & + .tag_btn{
             margin-left: 2px;
@@ -270,26 +270,26 @@
     .post_tag{
         padding-bottom: 20px;
         a{
-            font: 300 14px/21px $primary-font;
-            color: $dip;
+            font: 300 14px/21px ₹primary-font;
+            color: ₹dip;
             &:hover{
-                color: $pfont;
+                color: ₹pfont;
             }
 			&.active{
-				color: $primary-color;
+				color: ₹primary-color;
 			}
         }
     }
     .blog_meta{
         li{
             a{
-                font: 300 14px/20px $primary-font;
+                font: 300 14px/20px ₹primary-font;
                 color: #777777;
                 vertical-align: middle;
                 padding-bottom: 12px;
                 display: inline-block;
                 i{
-                    color: $dip;
+                    color: ₹dip;
                     font-size: 16px;
                     font-weight: 600;
                     padding-left: 15px;
@@ -297,7 +297,7 @@
                     vertical-align: middle;
                 }
                 &:hover{
-                    color: $primary-color;
+                    color: ₹primary-color;
                 }
             }
         }
@@ -314,7 +314,7 @@
         padding: 0 30px;
         line-height: 34px;
         display: inline-block;
-        color: $title-color;
+        color: ₹title-color;
     }
 }
 .blog_details{
@@ -322,11 +322,11 @@
     h2{
         font-size: 24px;
         line-height: 36px;
-        color: $dip;
+        color: ₹dip;
         font-weight: 600;
         transition: all 0.3s linear;
         &:hover{
-            color: $baseColor;
+            color: ₹baseColor;
         }
     }
     p{
@@ -337,7 +337,7 @@
     font-size: 14px;
     line-height: 36px;
     display: inline-block;
-    color: $dip;
+    color: ₹dip;
     font-weight: 500;
     padding: 0px 30px;
     background: #fff;
@@ -350,7 +350,7 @@
     .widget_title{
         font-size: 18px;
         line-height: 25px;
-        background: $primary-color;
+        background: ₹primary-color;
         text-align: center;
         color: #fff;
         padding: 8px 0px;
@@ -368,7 +368,7 @@
                 padding-left: 20px;
                 border-radius: 45px;
                 z-index: 0;
-                background: $primary-color;;
+                background: ₹primary-color;;
                 @include placeholder{
                     color: #fff;
                 }
@@ -396,7 +396,7 @@
         h4{
             font-size: 18px;
             line-height: 20px;
-            color: $dip;
+            color: ₹dip;
             margin-bottom: 5px;
 			margin-top: 30px;
         }
@@ -407,13 +407,13 @@
             padding: 7px 0px 15px;
             a{
                 font-size: 14px;
-                color: $dip;
+                color: ₹dip;
                 transition: all 0.2s linear;
                 & + a{
                     margin-left: 20px;
                 }
                 &:hover{
-                    color: $baseColor;
+                    color: ₹baseColor;
                 }
             }
         }
@@ -427,11 +427,11 @@
                 h3{
                     font-size: 14px;
                     line-height: 20px;
-                    color: $dip;
+                    color: ₹dip;
                     margin-bottom: 4px;
                     transition: all 0.3s linear;
                     &:hover{
-                        color: $primary-color;
+                        color: ₹primary-color;
                     }
                 }
                 p{
@@ -463,9 +463,9 @@
                     padding-top: 15px;
                 }
                 &:hover{
-                    border-color: $primary-color;
+                    border-color: ₹primary-color;
                     a{
-                        color: $primary-color;
+                        color: ₹primary-color;
                     }
                 }
             }
@@ -508,7 +508,7 @@
             }
         }
         .bbtns{
-            background: $primary-color;
+            background: ₹primary-color;
             color: #fff;
             font-size: 12px;
             line-height: 38px;
@@ -532,10 +532,10 @@
                     padding: 0px 13px;
                     margin-bottom: 8px;
                     transition: all 0.3s ease 0s;
-                    color: $dip;
+                    color: ₹dip;
                     font-size: 12px;
                     &:hover{
-                        background: $primary-color;
+                        background: ₹primary-color;
                         color: #fff;
                     }
                 }
@@ -568,7 +568,7 @@
 
 .blog-pagination .page-item.active .page-link {
     @extend .gradient-bg;
-    color: $white;
+    color: ₹white;
 }
 
 .blog-pagination .page-link {
@@ -593,7 +593,7 @@
 .blog-pagination .page-link:hover {
     color: #fff;
     text-decoration: none;
-    background-color: $baseColor;
+    background-color: ₹baseColor;
     border-color: #eee;
 }
 
@@ -613,7 +613,7 @@
                 font-size: 14px;
                 transition: all 0.2s linear;
                 &:hover {
-                    color: $dip;
+                    color: ₹dip;
                 }
             }
         }
@@ -657,7 +657,7 @@
         h4{
             font-size: 18px;
             line-height: 25px;
-            color: $dip;
+            color: ₹dip;
         }
         .nav-left {
             text-align: left;
@@ -732,7 +732,7 @@
     h4 {
         text-align: center;
         margin-bottom: 50px;
-        color: $dip;
+        color: ₹dip;
         font-size: 18px;
     }
     h5 {
@@ -740,7 +740,7 @@
         margin-bottom: 0px;
     }
     a {
-        color: $dip;
+        color: ₹dip;
     }
     .comment-list {
         padding-bottom: 48px;
@@ -778,7 +778,7 @@
     }
     .btn-reply {
         background-color: #fff;
-        color: $dip;
+        color: ₹dip;
         border:1px solid #eee;
         padding: 2px 18px;
         font-size: 12px;
@@ -786,7 +786,7 @@
         font-weight:600;
         @include transition();
         &:hover {
-            background-color: $baseColor;
+            background-color: ₹baseColor;
             color: #fff;
         }
     }
@@ -804,7 +804,7 @@
         margin-bottom: 50px;
         font-size: 18px;
         line-height: 22px;
-        color: $dip;
+        color: ₹dip;
     }
     .name {
         padding-left: 0px;

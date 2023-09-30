@@ -27,8 +27,8 @@
 		h4{
 			margin-top: 26px;
 			margin-left: 26px;
-			color: $title-color;
-			font-family: $primary-font;
+			color: ₹title-color;
+			font-family: ₹primary-font;
 			font-weight: 500;
 			font-size: 30px;
 		}
@@ -39,10 +39,10 @@
 			text-transform: uppercase;
 			font-size: 14px;
 			font-weight: 500;
-			color: $title-color;
+			color: ₹title-color;
 			@include transition;
 			&:hover{
-				color: $primary-color;
+				color: ₹primary-color;
 			}
 		}
 	}
@@ -68,7 +68,7 @@
 			&.active{
 				width: 30px;
 				height: 8px;
-				background: $primary-color;
+				background: ₹primary-color;
 				border-radius: 4px;
 			}
 		}
@@ -93,31 +93,31 @@
 				border-radius: 3px;
 				background: #fff;
 				line-height: 40px;
-				color: $title-color;
+				color: ₹title-color;
 				margin-bottom: 5px;
 				&:last-child{
 					margin-bottom: 0px;
 				}
 				&:hover{
 					color: #fff;
-					background: $primary-color;
+					background: ₹primary-color;
 				}
 			}
 		}
 	}
 	h4{
-		color: $title-color;
+		color: ₹title-color;
 		font-size: 16px;
 		margin-top: 15px;
 		@include transition;
 		&:hover{
-			color: $primary-color;
+			color: ₹primary-color;
 		}
 	}
 	h5{
 		margin-bottom: 0px;
 		font-size: 18px;
-		color: $text-color;
+		color: ₹text-color;
 	}
 	&:hover{
 		.f_p_img{
@@ -171,12 +171,12 @@
 				margin-bottom: 8px;
 				font-size: 14px;
 				font-weight: normal;
-				color: $title-color;
+				color: ₹title-color;
 			}
 			h3{
 				font-size: 16px;
 				font-weight: 500;
-				color: $text-color;
+				color: ₹text-color;
 				margin-bottom: 0px;
 			}
 		}
@@ -217,7 +217,7 @@
 	h3{
 		margin-bottom: 0px;
 		font-size: 14px;
-		color: $title-color;
+		color: ₹title-color;
 		text-transform: uppercase;
 		font-weight: 500;
 		line-height: 60px;
@@ -229,8 +229,8 @@
 			margin-bottom: 13px;
 			a{
 				font-size: 14px;
-				font-family: $primary-font;
-				color: $title-color;
+				font-family: ₹primary-font;
+				color: ₹title-color;
 			}
 			.list{
 				margin-top: 10px;
@@ -250,9 +250,9 @@
 		}
 	}
 	h4{
-		color: $title-color;
+		color: ₹title-color;
 		font-size: 14px;
-		font-family: $primary-font;
+		font-family: ₹primary-font;
 		font-weight: normal;
 		margin-bottom: 22px;
 		margin-top: 10px;
@@ -263,16 +263,16 @@
 			a{
 				padding-left: 30px;
 				font-size: 14px;
-				font-family: $primary-font;
+				font-family: ₹primary-font;
 				font-weight: normal;
-				color: $text-color;
+				color: ₹text-color;
 				position: relative;
 				&:before{
 					content: "";
 					height: 10px;
 					width: 10px;
 					border-radius: 50%;
-					border: 1px solid $text-color;
+					border: 1px solid ₹text-color;
 					position: absolute;
 					left: 0px;
 					top: 5px;
@@ -293,8 +293,8 @@
 			&.active, &:hover{
 				a{
 					&:before{
-						background: $primary-color;
-						border-color: $primary-color;
+						background: ₹primary-color;
+						border-color: ₹primary-color;
 					}
 				}
 			}
@@ -316,7 +316,7 @@
 				width: 16px;
 				border-radius: 50%;
 				border: none;
-				background: $primary-color;
+				background: ₹primary-color;
 				outline: none !important;
 				box-shadow: none;
 				top: -6px;
@@ -327,8 +327,8 @@
 			display: inline-block;
 			font-size: 14px;
 			font-weight: normal;
-			color: $text-color;
-			font-family: $primary-font;
+			color: ₹text-color;
+			font-family: ₹primary-font;
 			margin-top: 15px;
 		}
 		input{
@@ -336,14 +336,14 @@
 			border: none;
 			width: 100px;
 			font-size: 14px;
-			color: $text-color;
-			font-family: $primary-font;
+			color: ₹text-color;
+			font-family: ₹primary-font;
 			margin-top: 9px;
 			padding-left: 3px;
 			@include placeholder{
 				font-size: 14px;
-				color: $text-color;
-				font-family: $primary-font;
+				color: ₹text-color;
+				font-family: ₹primary-font;
 			}
 		}
 	}
@@ -365,7 +365,7 @@
 			padding-left: 20px;
 			span{
 				font-size: 14px;
-				font-family: $primary-font;
+				font-family: ₹primary-font;
 				color: #555555;
 			}
 			.list{
@@ -373,7 +373,7 @@
 				border-radius: 0px;
 				li{
 					font-size: 14px;
-					font-family: $primary-font;
+					font-family: ₹primary-font;
 					color: #555555;
 				}
 			}
@@ -399,7 +399,7 @@
 			margin-left: 10px;
 			span{
 				font-size: 14px;
-				font-family: $primary-font;
+				font-family: ₹primary-font;
 				color: #555555;
 			}
 			.list{
@@ -407,7 +407,7 @@
 				border-radius: 0px;
 				li{
 					font-size: 14px;
-					font-family: $primary-font;
+					font-family: ₹primary-font;
 					color: #555555;
 				}
 			}
@@ -439,9 +439,9 @@
 				border-color: #eeeeee;
 				border-radius: 0px !important;
 				font-size: 14px;
-				color: $title-color;
+				color: ₹title-color;
 				font-weight: normal;
-				font-family: $primary-font;
+				font-family: ₹primary-font;
 			}
 			&.blank{
 				a{
@@ -452,9 +452,9 @@
 			}
 			&:hover, &.active{
 				a{
-					background: $primary-color;
+					background: ₹primary-color;
 					color: #fff;
-					border-color: $primary-color;
+					border-color: ₹primary-color;
 				}
 			}
 		}
@@ -507,7 +507,7 @@
 	h3{
 		font-size: 24px;
 		font-weight: 500;
-		color: $title-color;
+		color: ₹title-color;
 		margin-bottom: 10px;
 	}
 	h2{
@@ -521,7 +521,7 @@
 			margin-bottom: 5px;
 			a{
 				font-size: 14px;
-				font-family: $primary-font;
+				font-family: ₹primary-font;
 				font-weight: normal;
 				color: #555555;
 				span{
@@ -599,8 +599,8 @@
 	margin-bottom: 24px;
 	label{
 		font-size: 14px;
-		color: $text-color;
-		font-family: $primary-font;
+		color: ₹text-color;
+		font-family: ₹primary-font;
 		font-weight: normal;
 		padding-right: 10px;
 	}
@@ -622,7 +622,7 @@
 		color: #cccccc;
 		@include transition;
 		&:hover{
-			color: $title-color;
+			color: ₹title-color;
 		}
 	}
 	.increase{
@@ -662,7 +662,7 @@
 				border: 1px solid #eeeeee;
 				border-radius: 0px;
 				padding: 0px 30px;
-				color: $title-color;
+				color: ₹title-color;
 				font-size: 13px;
 				font-weight: normal;
 				@media (max-width: 570px) {
@@ -693,15 +693,15 @@
 					font-weight: bold;
 				}
 				h5{
-					color: $title-color;
+					color: ₹title-color;
 					margin-bottom: 0px;
 					font-size: 24px;
 				}
 				h6{
-					color: $title-color;
+					color: ₹title-color;
 					margin-bottom: 0px;
 					font-size: 14px;
-					color: $text-color;
+					color: ₹text-color;
 					font-weight: normal;
 				}
 			}
@@ -709,8 +709,8 @@
 				margin-bottom: 30px;
 				h3{
 					font-size: 18px;
-					color: $title-color;
-					font-family: $primary-font;
+					color: ₹title-color;
+					font-family: ₹primary-font;
 					font-weight: 500;
 					margin-bottom: 10px;
 				}
@@ -718,7 +718,7 @@
 					li{
 						a{
 							font-size: 14px;
-							color: $text-color;
+							color: ₹text-color;
 							i{
 								color: #fbd600;
 							}
@@ -747,9 +747,9 @@
 						padding-bottom: 14px;
 						h5{
 							font-size: 14px;
-							font-family: $primary-font;
+							font-family: ₹primary-font;
 							font-weight: normal;
-							color: $text-color;
+							color: ₹text-color;
 							margin-bottom: 0px;
 							white-space: nowrap;
 						}
@@ -783,8 +783,8 @@
 			h4{
 				margin-bottom: 0px;
 				font-size: 14px;
-				color: $title-color;
-				font-family: $primary-font;
+				color: ₹title-color;
+				font-family: ₹primary-font;
 				margin-bottom: 8px;
 			}
 			i{
@@ -793,7 +793,7 @@
 			h5{
 				font-size: 13px;
 				font-weight: normal;
-				color: $text-color;
+				color: ₹text-color;
 			}
 			.reply_btn{
 				border: 1px solid #e0e0e0;
@@ -802,15 +802,15 @@
 				line-height: 32px;
 				border-radius: 16px;
 				font-size: 14px;
-				font-family: $primary-font;
-				color: $title-color;
+				font-family: ₹primary-font;
+				color: ₹title-color;
 				position: absolute;
 				right: 0px;
 				top: 14px;
 				@icnlude transition;
 				&:hover{
-					background: $primary-color;
-					border-color: $primary-color;
+					background: ₹primary-color;
+					border-color: ₹primary-color;
 					color: #fff;
 				}
 			}
@@ -829,7 +829,7 @@
 .review_box{
 	h4{
 		font-size: 24px;
-		color: $title-color;
+		color: ₹title-color;
 		margin-bottom: 20px;
 	}
 	p{
@@ -885,8 +885,8 @@
 					border-top: 0px;
 					font-size: 14px;
 					font-weight: 500;
-					font-family: $primary-font;
-					color: $text-color;
+					font-family: ₹primary-font;
+					color: ₹text-color;
 					border-bottom: 0px !important; 
 				}
 			}
@@ -916,8 +916,8 @@
 					}
 					h5{
 						font-size: 14px;
-						color: $title-color;
-						font-family: $primary-font;
+						color: ₹title-color;
+						font-family: ₹primary-font;
 						margin-bottom: 0px;
 					}
 					.product_count{
@@ -963,7 +963,7 @@
 						border-radius: 3px;
 						padding: 0px 40px;
 						display: inline-block;
-						color: $title-color;
+						color: ₹title-color;
 						text-transform: uppercase;
 						font-weight: 500;
 					}
@@ -981,7 +981,7 @@
 								height: 40px;
 								font-size: 14px;
 								color: #cccccc;
-								font-family: $primary-font;
+								font-family: ₹primary-font;
 								font-weight: normal;
 								margin-right: -3px;
 								outline: none;
@@ -989,7 +989,7 @@
 								@include placeholder{
 									font-size: 14px;
 									color: #cccccc;
-									font-family: $primary-font;
+									font-family: ₹primary-font;
 									font-weight: normal;
 								}
 							}
@@ -1025,7 +1025,7 @@
 								a{
 									padding-right: 30px;
 									font-size: 14px;
-									color: $text-color;
+									color: ₹text-color;
 									position: relative;
 									&:before{
 										content: "";
@@ -1044,7 +1044,7 @@
 										height: 10px;
 										width: 10px;
 										border-radius: 50%;
-										background: $primary-color;
+										background: ₹primary-color;
 										display: inline-block;
 										position: absolute;
 										right: 3px;
@@ -1065,12 +1065,12 @@
 						h6{
 							font-size: 14px;
 							font-weight: normal;
-							color: $title-color;
-							font-family: $primary-font;
+							color: ₹title-color;
+							font-family: ₹primary-font;
 							margin-top: 20px;
 							margin-bottom: 20px;
 							i{
-								color: $text-color;
+								color: ₹text-color;
 								padding-left: 5px;
 							}
 						}
@@ -1087,7 +1087,7 @@
 								li{
 									font-size: 14px;
 									font-weight: normal;
-									color: $text-color;
+									color: ₹text-color;
 								}
 							}
 						}
@@ -1130,7 +1130,7 @@
 	border-radius: 3px;
 	padding: 0px 40px;
 	display: inline-block;
-	color: $title-color;
+	color: ₹title-color;
 	text-transform: uppercase;
 	font-weight: 500;
 }
@@ -1146,7 +1146,7 @@
 	h2{
 		font-size: 14px;
 		font-weight: normal;
-		font-family: $primary-font;
+		font-family: ₹primary-font;
 		background: #e8f0f2;
 		line-height: 40px!important;
 		padding-left: 30px;
@@ -1173,13 +1173,13 @@
 				height: 40px;
 				border-radius: 3px;
 				font-size: 14px;
-				font-family: $primary-font;
-				color: $text-color;
+				font-family: ₹primary-font;
+				color: ₹text-color;
 				font-weight: normal;
 				@include placeholder{
 					font-size: 14px;
-					font-family: $primary-font;
-					color: $text-color;
+					font-family: ₹primary-font;
+					color: ₹text-color;
 					font-weight: normal;
 				}
 			}
@@ -1203,8 +1203,8 @@
 				display: block;
 				margin-top: 20px;
 				font-size: 14px;
-				font-family: $primary-font;
-				color: $text-color;
+				font-family: ₹primary-font;
+				color: ₹text-color;
 				font-weight: normal;
 			}
 		}
@@ -1273,15 +1273,15 @@
 	display: inline-block;
 	line-height: 38px;
 	padding: 0px 40px;
-	color: $title-color;
+	color: ₹title-color;
 	text-transform: uppercase;
-	font-family: $primary-font;
+	font-family: ₹primary-font;
 	font-weight: 500;
 	border-radius: 3px;
 	&:hover{
-		background: $primary-color;
+		background: ₹primary-color;
 		color: #fff;
-		border-color: $primary-color;
+		border-color: ₹primary-color;
 	}
 }
 
@@ -1289,7 +1289,7 @@
 .billing_details{
 	h3{
 		font-size: 18px;
-		color: $title-color;
+		color: ₹title-color;
 		border-bottom: 1px solid #eee;
 		padding-bottom: 10px;
 		margin-bottom: 30px;
@@ -1299,9 +1299,9 @@
 			margin-bottom: 20px;
 			input{
 				border-radius: 3px;
-				color: $text-color;
+				color: ₹text-color;
 				@include placeholder{
-					color: $text-color;
+					color: ₹text-color;
 				}
 			}
 			textarea{
@@ -1312,14 +1312,14 @@
 			.country_select{
 				width: 100%;
 				span{
-					color: $text-color;
+					color: ₹text-color;
 				}
 				.list{
 					width: 100%;
 					border-radius: 0px;
 					li{
 						font-size: 14px;
-						font-family: $primary-font;
+						font-family: ₹primary-font;
 						font-weight: normal;
 					}
 				}
@@ -1332,7 +1332,7 @@
 					margin-right: 5px;
 				}
 				a{
-					color: $primary-color;
+					color: ₹primary-color;
 				}
 			}
 		}
@@ -1345,14 +1345,14 @@
 		border-bottom: 1px solid #dddddd;
 		font-size: 18px;
 		font-weight: 500;
-		color: $title-color;
+		color: ₹title-color;
 		padding-bottom: 15px;
 	}
 	.list{
 		li{
 			a{
 				font-size: 14px;
-				color: $text-color;
+				color: ₹text-color;
 				font-weight: normal;
 				border-bottom: 1px solid #eeeeee;
 				display: block;
@@ -1366,7 +1366,7 @@
 					text-align: right;
 					display: inline-block;
 					margin-left: 30px;
-					color: $title-color;
+					color: ₹title-color;
 				}
 			}
 			&:nth-child(4){
@@ -1382,17 +1382,17 @@
 		li{
 			a{
 				text-transform: uppercase;
-				color: $title-color;
+				color: ₹title-color;
 				font-weight: 500;
 				span{
-					color: $text-color;
+					color: ₹text-color;
 					text-transform: capitalize;
 				}
 			}
 			&:last-child{
 				a{
 					span{
-						color: $title-color;
+						color: ₹title-color;
 					}
 				}
 			}
@@ -1402,7 +1402,7 @@
 		h4{
 			font-size: 14px;
 			text-transform: uppercase;
-			color: $title-color;
+			color: ₹title-color;
 			font-weight: 500;
 			padding-left: 22px;
 			position: relative;
@@ -1443,8 +1443,8 @@
 		&.active{
 			h4{
 				&:before{
-					background: $primary-color;
-					border-color: $primary-color;
+					background: ₹primary-color;
+					border-color: ₹primary-color;
 				}
 			}
 		}
@@ -1454,7 +1454,7 @@
 		label{
 			padding-left: 10px;
 			font-size: 12px;
-			color: $title-color;
+			color: ₹title-color;
 		}
 		a{
 			color: #c5322d;
@@ -1489,7 +1489,7 @@
 			border-bottom: 1px solid #eee;
 			padding-bottom: 12px;
 			font-size: 18px;
-			color: $title-color;
+			color: ₹title-color;
 			padding-left: 18px;
 		}
 		.list{
@@ -1504,12 +1504,12 @@
 				}
 				a{
 					font-size: 14px;
-					color: $title-color;
-					font-family: $primary-font;
+					color: ₹title-color;
+					font-family: ₹primary-font;
 					span{
 						width: 145px;
 						display: inline-block;
-						color: $text-color;
+						color: ₹text-color;
 					}
 				}
 			}
@@ -1524,7 +1524,7 @@
 		margin-top: 45px;
 	}
 	h2{
-		color: $title-color;
+		color: ₹title-color;
 		font-size: 18px;
 		padding-bottom: 15px;
 	}
@@ -1535,7 +1535,7 @@
 				th{
 					border-bottom: 1px solid #ddd;
 					font-size: 14px;
-					font-family: $primary-font;
+					font-family: ₹primary-font;
 					font-weight: normal;
 				}
 			}
@@ -1547,21 +1547,21 @@
 						margin-bottom: 0px;
 					}
 					h5{
-						color: $title-color;
+						color: ₹title-color;
 						margin-bottom: 0px;
 					}
 					h4{
 						font-size: 14px;
 						text-transform: uppercase;
 						margin-bottom: 0px;
-						color: $title-color;
+						color: ₹title-color;
 					}
 				}
 				&:last-child{
 					td{
 						border-top: 1px solid #ddd;
 						p{
-							color: $title-color;
+							color: ₹title-color;
 						}
 					}
 				}
@@ -1627,7 +1627,7 @@
 	text-align: center;
 	padding-top: 115px;
 	h3{
-		color: $title-color;
+		color: ₹title-color;
 		text-transform: uppercase;
 		font-size: 18px;
 		margin-bottom: 30px;
@@ -1683,8 +1683,8 @@
 		}
 		a{
 			font-size: 14px;
-			color: $text-color;
-			font-family: $primary-font;
+			color: ₹text-color;
+			font-family: ₹primary-font;
 			margin-top: 20px;
 			display: block;
 		}
@@ -1699,7 +1699,7 @@
 	.tracking_box_inner{
 		p{
 			max-width: 870px;
-			color: $title-color;
+			color: ₹title-color;
 			margin-bottom: 25px;
 		}
 		.tracking_form{
@@ -1713,13 +1713,13 @@
 					box-shadow: none;
 					border-radius: 0px;
 					font-size: 14px;
-					color: $text-color;
-					font-family: $primary-font;
+					color: ₹text-color;
+					font-family: ₹primary-font;
 					font-weight: normal;
 					@include placeholder{
 						font-size: 14px;
-						color: $text-color;
-						font-family: $primary-font;
+						color: ₹text-color;
+						font-family: ₹primary-font;
 						font-weight: normal;
 					}
 				}
@@ -1762,9 +1762,9 @@
     z-index: 9;
     cursor: pointer;
     -webkit-transition: all 0.25s linear;
-    font-family: $primary-font;
+    font-family: ₹primary-font;
 	font-weight: 500;
-    color: $title-color;
+    color: ₹title-color;
     font-size: 13px;
     letter-spacing: .25px;
     text-transform: uppercase;
@@ -1799,8 +1799,8 @@
 }
 
 .radion_btn input[type=radio]:checked ~ .check {
-    border: 1px solid $primary-color;
-	background: $primary-color;
+    border: 1px solid ₹primary-color;
+	background: ₹primary-color;
 }
 
 .radion_btn input[type=radio]:checked ~ .check::before{

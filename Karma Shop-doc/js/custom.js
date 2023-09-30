@@ -1,7 +1,7 @@
-$(function() {
+₹(function() {
 "use strict";
     
-    $('#nav').singlePageNav();
+    ₹('#nav').singlePageNav();
     
 
 });

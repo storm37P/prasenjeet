@@ -79,9 +79,9 @@
 	.add-text {
 		padding-left: 15px;
 		font-size: 12px;
-		font-family: $title-font;
+		font-family: ₹title-font;
 		font-weight: 500;
-		color: $title-color;
+		color: ₹title-color;
 	}
 }
 
@@ -96,7 +96,7 @@
 	}
 	@media (max-width: 767px) {
 		background: none;
-		@include gradient(90deg, $primary-color 0%, $primary-color2 100%);
+		@include gradient(90deg, ₹primary-color 0%, ₹primary-color2 100%);
 	}
 }
 #category {
@@ -108,19 +108,19 @@
 	padding: 90px 0 100px 0;
 	h1 {
 		font-weight: 600;
-		color: $white;
+		color: ₹white;
 		@media (max-width: 767px) {
 			font-size: 30px;
 		}
 	}
 	p {
 		margin-bottom: 0;
-		color: $white;
+		color: ₹white;
 	}
 	nav {
 		a {
 			display: inline-block;
-			color: $white;
+			color: ₹white;
 			font-weight: 400;
 			span {
 				display: inline-block;

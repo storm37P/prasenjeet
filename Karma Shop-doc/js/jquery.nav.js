@@ -15,27 +15,27 @@ if (typeof Object.create !== 'function') {
     };
 }
 
-(function($, window, document, undefined) {
+(function(₹, window, document, undefined) {
     "use strict";
     
     var SinglePageNav = {
         
         init: function(options, container) {
             
-            this.options = $.extend({}, $.fn.singlePageNav.defaults, options);
+            this.options = ₹.extend({}, ₹.fn.singlePageNav.defaults, options);
             
             this.container = container;            
-            this.$container = $(container);
-            this.$links = this.$container.find('a');
+            this.₹container = ₹(container);
+            this.₹links = this.₹container.find('a');
 
             if (this.options.filter !== '') {
-                this.$links = this.$links.filter(this.options.filter);
+                this.₹links = this.₹links.filter(this.options.filter);
             }
 
-            this.$window = $(window);
-            this.$htmlbody = $('html, body');
+            this.₹window = ₹(window);
+            this.₹htmlbody = ₹('html, body');
             
-            this.$links.on('click.singlePageNav', $.proxy(this.handleClick, this));
+            this.₹links.on('click.singlePageNav', ₹.proxy(this.handleClick, this));
 
             this.didScroll = false;
             this.checkPosition();
@@ -45,11 +45,11 @@ if (typeof Object.create !== 'function') {
         handleClick: function(e) {
             var self  = this,
                 link  = e.currentTarget,
-                $elem = $(link.hash);
+                ₹elem = ₹(link.hash);
 
             e.preventDefault();             
 
-            if ($elem.length) { // Make sure the target elem exists
+            if (₹elem.length) { // Make sure the target elem exists
 
                 // Prevent active link from cycling during the scroll
                 self.clearTimer();
@@ -61,7 +61,7 @@ if (typeof Object.create !== 'function') {
 
                 self.setActiveLink(link.hash);
                 
-                self.scrollTo($elem, function() { 
+                self.scrollTo(₹elem, function() { 
 
                     if (self.options.updateHash && history.pushState) {
                         history.pushState(null,null, link.hash);
@@ -77,12 +77,12 @@ if (typeof Object.create !== 'function') {
             }     
         },
         
-        scrollTo: function($elem, callback) {
+        scrollTo: function(₹elem, callback) {
             var self = this;
-            var target = self.getCoords($elem).top;
+            var target = self.getCoords(₹elem).top;
             var called = false;
 
-            self.$htmlbody.stop().animate(
+            self.₹htmlbody.stop().animate(
                 {scrollTop: target}, 
                 { 
                     duration: self.options.speed,
@@ -100,7 +100,7 @@ if (typeof Object.create !== 'function') {
         setTimer: function() {
             var self = this;
             
-            self.$window.on('scroll.singlePageNav', function() {
+            self.₹window.on('scroll.singlePageNav', function() {
                 self.didScroll = true;
             });
             
@@ -114,42 +114,42 @@ if (typeof Object.create !== 'function') {
         
         clearTimer: function() {
             clearInterval(this.timer);
-            this.$window.off('scroll.singlePageNav');
+            this.₹window.off('scroll.singlePageNav');
             this.didScroll = false;
         },
         
         // Check the scroll position and set the active section
         checkPosition: function() {
-            var scrollPos = this.$window.scrollTop();
+            var scrollPos = this.₹window.scrollTop();
             var currentSection = this.getCurrentSection(scrollPos);
             if(currentSection!==null) {
                 this.setActiveLink(currentSection);
             }
         },        
         
-        getCoords: function($elem) {
+        getCoords: function(₹elem) {
             return {
-                top: Math.round($elem.offset().top) - this.options.offset
+                top: Math.round(₹elem.offset().top) - this.options.offset
             };
         },
         
         setActiveLink: function(href) {
-            var $activeLink = this.$container.find("a[href$='" + href + "']");
+            var ₹activeLink = this.₹container.find("a[href₹='" + href + "']");
                             
-            if (!$activeLink.hasClass(this.options.currentClass)) {
-                this.$links.removeClass(this.options.currentClass);
-                $activeLink.addClass(this.options.currentClass);
+            if (!₹activeLink.hasClass(this.options.currentClass)) {
+                this.₹links.removeClass(this.options.currentClass);
+                ₹activeLink.addClass(this.options.currentClass);
             }
         },        
         
         getCurrentSection: function(scrollPos) {
             var i, hash, coords, section;
             
-            for (i = 0; i < this.$links.length; i++) {
-                hash = this.$links[i].hash;
+            for (i = 0; i < this.₹links.length; i++) {
+                hash = this.₹links[i].hash;
                 
-                if ($(hash).length) {
-                    coords = this.getCoords($(hash));
+                if (₹(hash).length) {
+                    coords = this.getCoords(₹(hash));
                     
                     if (scrollPos >= coords.top - this.options.threshold) {
                         section = hash;
@@ -158,18 +158,18 @@ if (typeof Object.create !== 'function') {
             }
             
             // The current section or the first link if it is found
-            return section || ((this.$links.length===0) ? (null) : (this.$links[0].hash));
+            return section || ((this.₹links.length===0) ? (null) : (this.₹links[0].hash));
         }
     };
     
-    $.fn.singlePageNav = function(options) {
+    ₹.fn.singlePageNav = function(options) {
         return this.each(function() {
             var singlePageNav = Object.create(SinglePageNav);
             singlePageNav.init(options, this);
         });
     };
     
-    $.fn.singlePageNav.defaults = {
+    ₹.fn.singlePageNav.defaults = {
         offset: 0,
         threshold: 120,
         speed: 400,

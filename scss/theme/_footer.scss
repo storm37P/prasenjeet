@@ -17,7 +17,7 @@
 .copy-right-text {
 	i,
 	a {
-		color: $primary-color;
+		color: ₹primary-color;
 	}
 }
 
@@ -38,7 +38,7 @@
 		@include transition();
 		&:hover {
 			i {
-				color: $primary-color;
+				color: ₹primary-color;
 			}
 		}
 	}
@@ -114,37 +114,37 @@
 	::-moz-selection {
 		/* Code for Firefox */
 		background-color: #191919 !important;
-		color: $text-color;
+		color: ₹text-color;
 	}
 	::selection {
 		background-color: #191919 !important;
-		color: $text-color;
+		color: ₹text-color;
 	}
 	::-webkit-input-placeholder {
 		/* WebKit, Blink, Edge */
-		color: $text-color;
+		color: ₹text-color;
 		font-weight: 300;
 	}
 	:-moz-placeholder {
 		/* Mozilla Firefox 4 to 18 */
-		color: $text-color;
+		color: ₹text-color;
 		opacity: 1;
 		font-weight: 300;
 	}
 	::-moz-placeholder {
 		/* Mozilla Firefox 19+ */
-		color: $text-color;
+		color: ₹text-color;
 		opacity: 1;
 		font-weight: 300;
 	}
 	:-ms-input-placeholder {
 		/* Internet Explorer 10-11 */
-		color: $text-color;
+		color: ₹text-color;
 		font-weight: 300;
 	}
 	::-ms-input-placeholder {
 		/* Microsoft Edge */
-		color: $text-color;
+		color: ₹text-color;
 		font-weight: 300;
 	}
 }
@@ -156,7 +156,7 @@
 	}
 	a,
 	i {
-		color: $primary-color;
+		color: ₹primary-color;
 	}
 }
 

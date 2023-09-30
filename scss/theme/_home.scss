@@ -266,10 +266,10 @@
 					width: 100px;
 					left: -40px;
 					text-transform: uppercase;
-					font-family: $title-font;
+					font-family: ₹title-font;
 					font-weight: 500;
 					font-size: 12px;
-					color: $title-color;
+					color: ₹title-color;
 					@include transition();
 					opacity: 0;
 					visibility: hidden;
@@ -357,10 +357,10 @@
 				padding: 18px 0;
 				border-radius: 5px;
 				.clockinner {
-					color: $title-color;
+					color: ₹title-color;
 					border-right: 1px solid #eee;
 					h1 {
-						color: $title-color;
+						color: ₹title-color;
 						margin-bottom: 0;
 					}
 				}
@@ -495,13 +495,13 @@
 		}
 	}
 	a {
-		color: $title-color;
+		color: ₹title-color;
 		text-transform: uppercase;
 	}
 	&:hover {
 		.desc {
 			a {
-				color: $primary-color;
+				color: ₹primary-color;
 			}
 		}
 	}
@@ -522,20 +522,20 @@
 	}
 	.nav-link {
 		border: 1px solid #eee;
-		background: $white;
-		color: $black;
+		background: ₹white;
+		color: ₹black;
 		padding: 0 30px;
 		line-height: 35px;
 		margin: 10px 3px;
 		border-radius: 0px;
 		&:hover {
 			@extend .p1-gradient-bg;
-			color: $white;
+			color: ₹white;
 			border: 1px solid transparent;
 		}
 		&.active {
 			@extend .p1-gradient-bg;
-			color: $white;
+			color: ₹white;
 			border: 1px solid transparent;
 		}
 	}
@@ -578,7 +578,7 @@
 		font-weight: 500;
 	}
 	.main-review {
-		color: $primary-color;
+		color: ₹primary-color;
 		font-size: 48px;
 		font-weight: 700;
 		padding: 15px 0;
@@ -913,9 +913,9 @@ label {
 		padding: 10px 15px;
 		p {
 			margin: 0;
-			color: $white;
+			color: ₹white;
 			a {
-				color: $white;
+				color: ₹white;
 				text-decoration: underline;
 			}
 		}
@@ -963,13 +963,13 @@ label {
 		}
 		.total {
 			font-weight: 500;
-			color: $title-color;
+			color: ₹title-color;
 		}
 	}
 	.bold-lable {
 		font-weight: 700;
 		text-transform: uppercase;
-		color: $title-color;
+		color: ₹title-color;
 	}
 	.payment-info {
 		margin-top: 20px;
@@ -999,7 +999,7 @@ label {
 			border-radius: 3px;
 		}
 		h6 {
-			color: $black;
+			color: ₹black;
 			margin-left: 30px;
 			font-weight: 400;
 		}
@@ -1008,11 +1008,11 @@ label {
 	.total {
 		font-size: 18px;
 		font-weight: 500;
-		color: $title-color;
+		color: ₹title-color;
 	}
 	.quantity-container {
 		.quantity-amount {
-			color: $title-color;
+			color: ₹title-color;
 			font-weight: 500;
 			font-size: 18px;
 			border-radius: 20px 0 0 20px;
@@ -1088,7 +1088,7 @@ label {
 	.subtotal {
 		margin-left: 200px;
 		font-weight: 500;
-		color: $title-color;
+		color: ₹title-color;
 		font-size: 18px;
 	}
 }
@@ -1149,7 +1149,7 @@ label {
 		padding-left: 15px;
 		border: none;
 		cursor: pointer;
-		background: $white;
+		background: ₹white;
 		&:focus {
 			outline: none;
 		}
@@ -1176,7 +1176,7 @@ label {
 		td {
 			width: 50%;
 			&:last-child {
-				color: $title-color;
+				color: ₹title-color;
 				font-weight: 500;
 			}
 		}
@@ -1199,18 +1199,18 @@ label {
 	padding: 30px 30px 100px 30px;
 	@extend .p1-gradient-bg;
 	.billing-title {
-		color: $white;
-		border-bottom: 1px solid $white;
+		color: ₹white;
+		border-bottom: 1px solid ₹white;
 	}
 	p {
-		color: $white;
+		color: ₹white;
 	}
 	.common-input {
-		border: 1px solid rgba($white, .3);
+		border: 1px solid rgba(₹white, .3);
 		background: transparent;
-		color: $white;
+		color: ₹white;
 		&:focus {
-			border: 1px solid rgba($white, 1);
+			border: 1px solid rgba(₹white, 1);
 		}
 	}
 	::-webkit-input-placeholder {

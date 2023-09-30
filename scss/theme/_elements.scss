@@ -1,13 +1,13 @@
-$default: #f9f9ff;
-$primary: $primary-color;
-$success: #4cd3e3;
-$info   : #38a4ff;
-$warning: #f4e700;
-$danger: #f44a40;
-$link: #f9f9ff;
-$disable: (#222222, .3);
+₹default: #f9f9ff;
+₹primary: ₹primary-color;
+₹success: #4cd3e3;
+₹info   : #38a4ff;
+₹warning: #f4e700;
+₹danger: #f44a40;
+₹link: #f9f9ff;
+₹disable: (#222222, .3);
 .sample-text-area {
-	background: $white;
+	background: ₹white;
 	padding: 100px 0 70px 0;
 }
 .text-heading {
@@ -15,7 +15,7 @@ $disable: (#222222, .3);
 	font-size: 24px;
 }
 b,sup, sub, u, del {
-	color: $primary;
+	color: ₹primary;
 }
 h1 {
 	font-size: 36px;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .typography {
 	h1, h2, h3, h4, h5, h6 {
-		color: $text-color;
+		color: ₹text-color;
 	}
 }
 .button-area {
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 		padding: 70px 15px;
 		border-top: 1px dotted #eee;
 	}
-	background: $white;
+	background: ₹white;
 }
 .button-group-area {
 	.genric-btn {
@@ -104,150 +104,150 @@ h1, h2, h3, h4, h5, h6 {
 		}
 	}
 	&.default {
-		color: $title-color;
-		background: $default;
+		color: ₹title-color;
+		background: ₹default;
 		border: 1px solid transparent;
 		&:hover {
-			border: 1px solid $default;
-			background: $white;
+			border: 1px solid ₹default;
+			background: ₹white;
 		}
 	}
 	&.default-border {
-		border: 1px solid $default;
-		background: $white;
+		border: 1px solid ₹default;
+		background: ₹white;
 		&:hover {
-		color: $title-color;
-		background: $default;
+		color: ₹title-color;
+		background: ₹default;
 		border: 1px solid transparent;
 		}
 	}
 	&.primary {
-		color: $white;
-		background: $primary;
+		color: ₹white;
+		background: ₹primary;
 		border: 1px solid transparent;
 		&:hover {
-			color: $primary;
-			border: 1px solid $primary;
-			background: $white;
+			color: ₹primary;
+			border: 1px solid ₹primary;
+			background: ₹white;
 		}
 	}
 	&.primary-border {
-		color: $primary;
-		border: 1px solid $primary;
-		background: $white;
+		color: ₹primary;
+		border: 1px solid ₹primary;
+		background: ₹white;
 		&:hover {
-			color: $white;
-			background: $primary;
+			color: ₹white;
+			background: ₹primary;
 			border: 1px solid transparent;
 		}
 	}
 	&.success {
-		color: $white;
-		background: $success;
+		color: ₹white;
+		background: ₹success;
 		border: 1px solid transparent;
 		&:hover {
-			color: $success;
-			border: 1px solid $success;
-			background: $white;
+			color: ₹success;
+			border: 1px solid ₹success;
+			background: ₹white;
 		}
 	}
 	&.success-border {
-		color: $success;
-		border: 1px solid $success;
-		background: $white;
+		color: ₹success;
+		border: 1px solid ₹success;
+		background: ₹white;
 		
 		&:hover {
-			color: $white;
-			background: $success;
+			color: ₹white;
+			background: ₹success;
 			border: 1px solid transparent;
 		}
 	}
 	&.info {
-		color: $white;
-		background: $info;
+		color: ₹white;
+		background: ₹info;
 		border: 1px solid transparent;
 		&:hover {
-			color: $info;
-			border: 1px solid $info;
-			background: $white;
+			color: ₹info;
+			border: 1px solid ₹info;
+			background: ₹white;
 		}
 	}
 	&.info-border {
-		color: $info;
-		border: 1px solid $info;
-		background: $white;
+		color: ₹info;
+		border: 1px solid ₹info;
+		background: ₹white;
 		
 		&:hover {
-			color: $white;
-			background: $info;
+			color: ₹white;
+			background: ₹info;
 			border: 1px solid transparent;
 		}
 	}
 	&.warning {
-		color: $white;
-		background: $warning;
+		color: ₹white;
+		background: ₹warning;
 		border: 1px solid transparent;
 		&:hover {
-			color: $warning;
-			border: 1px solid $warning;
-			background: $white;
+			color: ₹warning;
+			border: 1px solid ₹warning;
+			background: ₹white;
 		}
 	}
 	&.warning-border {
-		color: $warning;
-		border: 1px solid $warning;
-		background: $white;
+		color: ₹warning;
+		border: 1px solid ₹warning;
+		background: ₹white;
 		&:hover {
-			color: $white;
-			background: $warning;
+			color: ₹white;
+			background: ₹warning;
 			border: 1px solid transparent;
 		}
 	}
 	&.danger {
-		color: $white;
-		background: $danger;
+		color: ₹white;
+		background: ₹danger;
 		border: 1px solid transparent;
 		&:hover {
-			color: $danger;
-			border: 1px solid $danger;
-			background: $white;
+			color: ₹danger;
+			border: 1px solid ₹danger;
+			background: ₹white;
 		}
 	}
 	&.danger-border {
-		color: $danger;
-		border: 1px solid $danger;
-		background: $white;
+		color: ₹danger;
+		border: 1px solid ₹danger;
+		background: ₹white;
 		&:hover {
-			color: $white;
-			background: $danger;
+			color: ₹white;
+			background: ₹danger;
 			border: 1px solid transparent;
 		}
 	}
 	&.link {
-		color: $title-color;
-		background: $link;
+		color: ₹title-color;
+		background: ₹link;
 		text-decoration: underline;
 		border: 1px solid transparent;
 		&:hover {
-			color: $title-color;
-			border: 1px solid $link;
-			background: $white;
+			color: ₹title-color;
+			border: 1px solid ₹link;
+			background: ₹white;
 		}
 	}
 	&.link-border {
-		color: $title-color;
-		border: 1px solid $link;
-		background: $white;
+		color: ₹title-color;
+		border: 1px solid ₹link;
+		background: ₹white;
 		text-decoration: underline;
 		&:hover {
-			color: $title-color;
-			background: $link;
+			color: ₹title-color;
+			background: ₹link;
 			border: 1px solid transparent;
 		}
 	}
 	&.disable {
-		color: $disable;
-		background: $link;
+		color: ₹disable;
+		background: ₹link;
 		border: 1px solid transparent;
 		cursor: not-allowed;
 	}
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
 	padding: 30px 50px 30px 30px;
 	background: #f9f9ff;
-	border-left: 2px solid $primary;
+	border-left: 2px solid ₹primary;
 }
 .progress-table-wrap {
 	overflow-x: scroll;
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 	.table-head {
 		display: flex;
 		.serial, .country, .visit, .percentage {
-			color: $title-color;
+			color: ₹title-color;
 			line-height: 40px;
 			text-transform: uppercase;
 			font-weight: 500;
@@ -360,8 +360,8 @@ h1, h2, h3, h4, h5, h6 {
 			position: absolute;
 			width: 14px;
 			height: 14px;
-			border: 3px solid $primary;
-			background: $white;
+			border: 3px solid ₹primary;
+			background: ₹white;
 			top: 4px;
 			left: 0;
 			border-radius: 50%;
@@ -372,12 +372,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 30px;
 	li {
 		list-style-type:decimal-leading-zero;
-		color: $primary;
+		color: ₹primary;
 		font-weight: 500;
 		line-height: 1.82em !important;
 		span {
 			font-weight: 300;
-			color: $text-color;
+			color: ₹text-color;
 		}
 	}
 }
@@ -385,12 +385,12 @@ h1, h2, h3, h4, h5, h6 {
 	li {
 		margin-left: 30px;
 		list-style-type:lower-alpha;
-		color: $primary;
+		color: ₹primary;
 		font-weight: 500;
 		line-height: 1.82em !important;
 		span {
 			font-weight: 300;
-			color: $text-color;
+			color: ₹text-color;
 		}
 	}
 }
@@ -398,12 +398,12 @@ h1, h2, h3, h4, h5, h6 {
 	li {
 		margin-left: 30px;
 		list-style-type:lower-roman;
-		color: $primary;
+		color: ₹primary;
 		font-weight: 500;
 		line-height: 1.82em !important;
 		span {
 			font-weight: 300;
-			color: $text-color;
+			color: ₹text-color;
 		}
 	}
 }
@@ -455,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
 // 	height: 40px;
 // 	width: 100%;
 // 	position: relative;
-// 	background: $primary;
+// 	background: ₹primary;
 // 	input {
 // 		display: block;
 // 		width: 100%;
@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
 // 		&:focus {
 // 			outline: none;
 // 			+ label {
-// 				background: $white;
+// 				background: ₹white;
 // 				top: 1px;
 // 				left: 1px;
 // 				right: 1px;
@@ -500,7 +500,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0 20px;
 	&:focus {
 		outline: none;
-		border: 1px solid $primary;
+		border: 1px solid ₹primary;
 	}
 }
 .single-input-accent {
@@ -554,7 +554,7 @@ h1, h2, h3, h4, h5, h6 {
 			width: 15px;
 			height: 15px;
 			border-radius: 50%;
-			background: $primary;
+			background: ₹primary;
 			@include transition (all .2s);
 			box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
 			cursor: pointer;
@@ -612,7 +612,7 @@ h1, h2, h3, h4, h5, h6 {
 				width: 15px;
 				height: 15px;
 				border-radius: 50%;
-				background: $white;
+				background: ₹white;
 				@include transition (all .2s);
 				box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
 				cursor: pointer;
@@ -624,7 +624,7 @@ h1, h2, h3, h4, h5, h6 {
 					left: 19px;
 				}
 				&:before {
-					background: $primary;
+					background: ₹primary;
 				}
 			}
 		}
@@ -676,7 +676,7 @@ h1, h2, h3, h4, h5, h6 {
 				width: 15px;
 				height: 15px;
 				border-radius: 50%;
-				background: $white;
+				background: ₹white;
 				@include transition (all .2s);
 				box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
 				cursor: pointer;
@@ -688,7 +688,7 @@ h1, h2, h3, h4, h5, h6 {
 					left: 19px;
 				}
 				&:before {
-					background: $success;
+					background: ₹success;
 				}
 			}
 		}
@@ -944,11 +944,11 @@ h1, h2, h3, h4, h5, h6 {
 				font-size: 12px;
 				padding-left: 20px;
 				&.selected {
-					color: $primary;
+					color: ₹primary;
 					background: transparent;
 				}
 				&:hover {
-					color: $primary;
+					color: ₹primary;
 					background: transparent;
 				}
 			}
@@ -988,11 +988,11 @@ h1, h2, h3, h4, h5, h6 {
 				font-size: 12px;
 				padding-left: 45px;
 				&.selected {
-					color: $primary;
+					color: ₹primary;
 					background: transparent;
 				}
 				&:hover {
-					color: $primary;
+					color: ₹primary;
 					background: transparent;
 				}
 			}
